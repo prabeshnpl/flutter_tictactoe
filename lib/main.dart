@@ -139,7 +139,7 @@ class _homepageState extends State<homepage> {
       check_tictactoe();
     });
   }
-  threethree(){
+   threethree(){
     setState(() {
       if(tictactoe=='X')
       {tictactoe='O';}
