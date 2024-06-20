@@ -69,83 +69,92 @@ class _homepageState extends State<homepage> {
   }
   oneone(){
     setState(() {
+      if(one_1==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       one_1=tictactoe; 
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   onetwo(){
     setState(() {
+      if(one_2==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       one_2=tictactoe; 
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   onethree(){
     setState(() {
+      if(one_3==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       one_3=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   twoone(){
     setState(() {
+      if(two_1==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       two_1=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   twotwo(){
     setState(() {
+      if(two_2==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       two_2=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   twothree(){
     setState(() {
+      if(two_3==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       two_3=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   threeone(){
     setState(() {
+      if(three_1==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       three_1=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   threetwo(){
     setState(() {
+      if(three_2==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       three_2=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
    threethree(){
     setState(() {
+      if(three_3==""){
       if(tictactoe=='X')
       {tictactoe='O';}
       else{tictactoe='X';}
       three_3=tictactoe;
-      check_tictactoe();
+      check_tictactoe();}
     });
   }
   @override
